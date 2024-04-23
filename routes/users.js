@@ -74,6 +74,7 @@ async function getUser(req, res, next) {
     }
     res.user = user;
     next();
+    
 }
 
 module.exports = router;
